@@ -1,103 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sneha's Portfolio - Projects</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f7f7f7;
-    }
-    header {
-      background-color: #111;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    .container {
-      padding: 40px 10%;
-    }
-    h1 {
-      margin-bottom: 30px;
-      color: #333;
-    }
-    .project-card {
-      background-color: white;
-      border-radius: 10px;
-      padding: 25px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      margin-bottom: 30px;
-      transition: 0.3s;
-    }
-    .project-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-    }
-    .project-title {
-      font-size: 22px;
-      color: #2c3e50;
-      margin-bottom: 10px;
-    }
-    .project-description {
-      color: #555;
-      margin-bottom: 15px;
-    }
-    .project-tech {
-      font-style: italic;
-      color: #888;
-      margin-bottom: 15px;
-    }
-    .project-links a {
-      text-decoration: none;
-      margin-right: 15px;
-      color: #1e90ff;
-      font-weight: 500;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Sneha Venkatesh</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="projects.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h2>Sneha Venkatesh • Projects</h2>
-  </header>
-  <div class="container">
-    <h1>Selected Projects</h1>
+  <main class="container">
+    <h1 class="page-title">Selected Projects</h1>
+    <section class="projects-grid">
 
-    <section class="project-section">
-  <div class="project-card">
-    <h3>Customer Segmentation Using RFM Clustering</h3>
-    <p>
-      Conducted behavioral clustering on 1M+ credit card transactions using RFM analysis and KMeans.
-      Identified customer personas and developed targeted marketing strategies for high-impact engagement.
-    </p>
-    <ul>
-      <li><a href="https://github.com/snehavenkatesh19/credit-card-segmentation" target="_blank">GitHub</a></li>
-      <li><a href="https://medium.com/your-article-link" target="_blank">Medium Article</a></li>
-    </ul>
-  </div>
+      <div class="project-card">
+        <h2 class="project-title">Customer Segmentation Using RFM Clustering</h2>
+        <p class="project-desc">
+          Conducted behavioral clustering on 1M+ credit card transactions using RFM analysis and KMeans. Identified customer personas and developed targeted marketing strategies for high-impact engagement.
+        </p>
+        <p class="project-tools">Tools: Python, pandas, scikit-learn, PCA, Matplotlib, Medium</p>
+        <div class="project-links">
+          <a href="https://github.com/snehavenkatesh19/credit-card-segmentation" target="_blank">GitHub</a>
+          <a href="https://medium.com/your-article-link" target="_blank">Medium Article</a>
+        </div>
+      </div>
 
-  <div class="project-card">
-    <h3>Email A/B Testing: Optimizing Subject Lines</h3>
-    <p>
-      Ran an A/B test on 10,000 synthetic users to determine whether a new subject line increased engagement.
-      The treatment version led to significantly higher open, click, and subscription rates.
-    </p>
-    <ul>
-      <li><a href="https://github.com/snehavenkatesh19/email-subjectline-abtest" target="_blank">GitHub</a></li>
-      <li><a href="https://public.tableau.com/app/profile/YOUR_USERNAME/viz/YOUR_DASHBOARD" target="_blank">Tableau Dashboard</a></li>
-    </ul>
-  </div>
-</section>
+      <div class="project-card">
+        <h2 class="project-title">Email A/B Testing: Optimizing Subject Lines</h2>
+        <p class="project-desc">
+          Ran an A/B test on 10,000 synthetic users to evaluate if a new email subject line improves engagement. The treatment version led to statistically significant uplifts in open, click-through, and subscription rates.
+        </p>
+        <p class="project-tools">Tools: Python, seaborn, statsmodels, Tableau, GitHub</p>
+        <div class="project-links">
+          <a href="https://github.com/snehavenkatesh19/email-subjectline-abtest" target="_blank">GitHub</a>
+          <a href="https://public.tableau.com/app/profile/YOUR_USERNAME/viz/YOUR_DASHBOARD" target="_blank">Tableau Dashboard</a>
+        </div>
+      </div>
 
-
-
-    <!-- More projects will go here -->
-
-  </div>
+    </section>
+  </main>
 </body>
 </html>
