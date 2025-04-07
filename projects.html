@@ -3,55 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects | Sneha Venkatesh</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Portfolio | Sneha Venkatesh</title>
   <link rel="stylesheet" href="projects.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">MY PORTFOLIO</div>
+    <div class="nav-links">
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+    </div>
+  </nav>
+
   <main class="container">
-    <h1 class="page-title">Selected Projects</h1>
-    <section class="projects-grid">
 
-      <div class="project-card">
-        <h2 class="project-title">Customer Segmentation Using RFM Clustering</h2>
-        <p class="project-desc">
-          Conducted behavioral clustering on 1M+ credit card transactions using RFM analysis and KMeans. Identified customer personas and developed targeted marketing strategies for high-impact engagement.
-        </p>
-        <p class="project-tools">Tools: Python, pandas, scikit-learn, PCA, Matplotlib, Medium</p>
-        <div class="project-links">
-          <a href="https://github.com/snehavenkatesh19/credit-card-segmentation" target="_blank">GitHub</a>
-          <a href="https://medium.com/your-article-link" target="_blank">Medium Article</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <h2 class="project-title">Email A/B Testing: Optimizing Subject Lines</h2>
-        <p class="project-desc">
-          Ran an A/B test on 10,000 synthetic users to evaluate if a new email subject line improves engagement. The treatment version led to statistically significant uplifts in open, click-through, and subscription rates.
-        </p>
-        <p class="project-tools">Tools: Python, seaborn, statsmodels, Tableau, GitHub</p>
-        <div class="project-links">
-          <a href="https://github.com/snehavenkatesh19/email-subjectline-abtest" target="_blank">GitHub</a>
-          <a href="https://public.tableau.com/app/profile/YOUR_USERNAME/viz/YOUR_DASHBOARD" target="_blank">Tableau Dashboard</a>
-        </div>
-      </div>
-<div class="project-card">
-  <h2 class="project-title">Flight Delay Analysis: Understanding Patterns & Risk Factors</h2>
-  <p class="project-desc">
-    Analyzed U.S. domestic flight data to uncover delay patterns across airlines, routes, time of day, and weather conditions.
-    Built predictive models to assess risk and support decision-making for travelers and airline operations.
-  </p>
-  <p class="project-tools">Tools: Python, pandas, seaborn, matplotlib, scikit-learn, Tableau</p>
-  <div class="project-links">
-    <a href="https://github.com/snehavenkatesh19/flight-delay-analysis" target="_blank">GitHub</a>
-    <a href="#" target="_blank">Tableau Dashboard (Coming Soon)</a>
-  </div>
-</div>
-
-      
-
+    <!-- About Section -->
+    <section id="about">
+      <h1 class="page-title">About Me</h1>
+      <p>Hello! I'm Sneha Venkatesh, a data enthusiast with a passion for analytics, storytelling, and building impactful solutions using data. I specialize in Python, SQL, A/B testing, clustering, and creating compelling dashboards in Tableau.</p>
     </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h1 class="page-title">Selected Projects</h1>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <h2 class="project-title">Customer Segmentation Using RFM Clustering</h2>
+          <p class="project-desc">Conducted behavioral clustering on 1M+ credit card transactions using RFM analysis and KMeans. Identified customer personas and developed targeted marketing strategies for high-impact engagement.</p>
+          <p class="project-tools">Tools: Python, pandas, scikit-learn, PCA, Matplotlib, Medium</p>
+          <div class="project-links">
+            <a href="https://github.com/snehavenkatesh19/credit-card-segmentation" target="_blank">GitHub</a>
+            <a href="https://medium.com/your-article-link" target="_blank">Medium Article</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h2 class="project-title">Email A/B Testing: Optimizing Subject Lines</h2>
+          <p class="project-desc">Ran an A/B test on 10,000 synthetic users to evaluate if a new email subject line improves engagement. The treatment version led to statistically significant uplifts in open, click-through, and subscription rates.</p>
+          <p class="project-tools">Tools: Python, seaborn, statsmodels, Tableau, GitHub</p>
+          <div class="project-links">
+            <a href="https://github.com/snehavenkatesh19/email-subjectline-abtest" target="_blank">GitHub</a>
+            <a href="https://public.tableau.com/app/profile/YOUR_USERNAME/viz/YOUR_DASHBOARD" target="_blank">Tableau Dashboard</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h2 class="project-title">Flight Delay Analysis: Understanding Patterns & Risk Factors</h2>
+          <p class="project-desc">Analyzed U.S. domestic flight data to uncover delay patterns across airlines, routes, time of day, and weather conditions. Built predictive models to assess risk and support decision-making for travelers and airline operations.</p>
+          <p class="project-tools">Tools: Python, pandas, seaborn, matplotlib, scikit-learn, Tableau</p>
+          <div class="project-links">
+            <a href="https://github.com/snehavenkatesh19/flight-delay-analysis" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Tableau Dashboard (Coming Soon)</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+      <h1 class="page-title">Resume</h1>
+      <p>Download my resume <a href="/Sneha_Venkatesh_Resume.pdf" target="_blank">here</a>. (Make sure to upload your PDF to the same repo!)</p>
+    </section>
+
   </main>
+
 </body>
 </html>
