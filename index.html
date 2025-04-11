@@ -5,76 +5,66 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Portfolio | Sneha Venkatesh</title>
-  <link rel="stylesheet" href="projects.css" />
+  <link rel="stylesheet" href="assets/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
 </head>
 <body>
 
-  <header class="portfolio-header">
-    <h1 class="site-title">MY PORTFOLIO</h1>
-  </header>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="overlay"></div>
+    <div class="hero-text">
+      <h1>Hello, I'm <span class="highlight">Sneha</span></h1>
+      <p>A data enthusiast passionate about storytelling, analytics, and building impactful solutions with data.</p>
+    </div>
+  </section>
 
   <!-- Sticky Navigation -->
   <nav class="sticky-nav">
-    <a href="#about">About Me</a>
-    <a href="#projects">Projects</a>
-    <a href="#resume">Resume</a>
+    <a href="#about" class="nav-link">About Me</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#resume" class="nav-link">Resume</a>
     <a href="https://github.com/snehavenkatesh19" target="_blank">GitHub</a>
     <a href="https://linkedin.com/in/snehavenkatesh10" target="_blank">LinkedIn</a>
   </nav>
 
-  <main class="container">
-
+  <!-- Page Container -->
+  <main class="main-container">
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="section">
       <h1 class="page-title">About Me</h1>
       <p>Hello! I'm Sneha Venkatesh, a data enthusiast with a passion for analytics, storytelling, and building impactful solutions using data. I specialize in Python, SQL, A/B testing, clustering, and creating compelling dashboards in Tableau.</p>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section id="projects" class="section">
       <h1 class="page-title">Selected Projects</h1>
       <div class="projects-grid">
-
         <div class="project-card">
-          <h2 class="project-title">Customer Segmentation Using RFM Clustering</h2>
-          <p class="project-desc">Conducted behavioral clustering on 1M+ credit card transactions using RFM analysis and KMeans. Identified customer personas and developed targeted marketing strategies for high-impact engagement.</p>
-          <p class="project-tools">Tools: Python, pandas, scikit-learn, PCA, Matplotlib, Medium</p>
-          <div class="project-links">
-            <a href="https://github.com/snehavenkatesh19/credit-card-segmentation" target="_blank">GitHub</a>
-            <a href="https://medium.com/@snehavenkatesh10/how-i-used-rfm-clustering-to-segment-credit-card-users-2ecead18eb0a" target="_blank">Medium Article</a>
-          </div>
+          <h2>Customer Segmentation Using RFM Clustering</h2>
+          <p>Behavioral clustering on 1M+ credit card transactions using RFM analysis and KMeans.</p>
+          <a href="https://github.com/snehavenkatesh19/credit-card-segmentation" target="_blank">GitHub</a>
         </div>
-
         <div class="project-card">
-          <h2 class="project-title">Email A/B Testing: Optimizing Subject Lines</h2>
-          <p class="project-desc">Ran an A/B test on 10,000 synthetic users to evaluate if a new email subject line improves engagement. The treatment version led to statistically significant uplifts in open, click-through, and subscription rates.</p>
-          <p class="project-tools">Tools: Python, seaborn, statsmodels, Tableau, GitHub</p>
-          <div class="project-links">
-            <a href="https://github.com/snehavenkatesh19/email-subjectline-abtest" target="_blank">GitHub</a>
-            <a href="https://public.tableau.com/app/profile/sneha.venkatesh3644/viz/Email_AB_Testing/Dashboard1" target="_blank">Tableau Dashboard</a>
-          </div>
+          <h2>Email A/B Testing: Optimizing Subject Lines</h2>
+          <p>A/B test on 10,000 synthetic users measuring uplift in open, click-through, and subscription rates.</p>
+          <a href="https://github.com/snehavenkatesh19/email-subjectline-abtest" target="_blank">GitHub</a>
         </div>
-
         <div class="project-card">
-          <h2 class="project-title">Flight Delay Analysis: Understanding Patterns & Risk Factors</h2>
-          <p class="project-desc">Analyzed U.S. domestic flight data to uncover delay patterns across airlines, routes, time of day, and weather conditions. Built predictive models to assess risk and support decision-making for travelers and airline operations.</p>
-          <p class="project-tools">Tools: Python, pandas, seaborn, matplotlib, scikit-learn, Tableau</p>
-          <div class="project-links">
-            <a href="https://github.com/snehavenkatesh19/flight-delay-analysis" target="_blank">GitHub</a>
-            <a href="#" target="_blank">Tableau Dashboard (Coming Soon)</a>
-          </div>
+          <h2>Flight Delay Analysis</h2>
+          <p>Analyzed U.S. domestic flights for delay risk factors across time, location, and carriers.</p>
+          <a href="https://github.com/snehavenkatesh19/flight-delay-analysis" target="_blank">GitHub</a>
         </div>
-
       </div>
     </section>
 
     <!-- Resume Section -->
-    <section id="resume">
+    <section id="resume" class="section">
       <h1 class="page-title">Resume</h1>
-      <p>Download my resume <a href="/Sneha_Venkatesh_Resume.pdf" target="_blank">here</a>. (Make sure to upload your PDF to the same repo!)</p>
+      <p>Download my resume <a href="/Sneha_Venkatesh_Resume.pdf" target="_blank">here</a>.</p>
     </section>
-
   </main>
+
+  <script src="assets/script.js"></script>
 </body>
 </html>
