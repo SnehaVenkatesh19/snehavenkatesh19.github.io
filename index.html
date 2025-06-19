@@ -5,10 +5,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Portfolio | Sneha Venkatesh</title>
-  <link rel="stylesheet" href="projects.css" />
+  <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
 </head>
 <body>
+
+  <section class="hero">
+  <div class="overlay"></div>
+  <div class="hero-text">
+    <h1>Hi, I’m <span class="highlight">Sneha Venkatesh</span></h1>
+    <p>Aspiring Data & Product Analyst | USC MSBA | SQL • Python • Tableau</p>
+  </div>
+</section>
 
   <header class="portfolio-header">
     <h1 class="site-title">Sneha Venkatesh</h1>
@@ -16,12 +24,12 @@
 
   <!-- Sticky Navigation -->
   <nav class="sticky-nav">
-    <a href="#about">About Me</a>
-    <a href="#projects">Projects</a>
-    <a href="#resume">Resume</a>
-    <a href="https://github.com/snehavenkatesh19" target="_blank">GitHub</a>
-    <a href="https://linkedin.com/in/snehavenkatesh10" target="_blank">LinkedIn</a>
-  </nav>
+  <a class="nav-link" href="#about">About Me</a>
+  <a class="nav-link" href="#projects">Projects</a>
+  <a class="nav-link" href="#resume">Resume</a>
+  <a class="nav-link" href="https://github.com/snehavenkatesh19" target="_blank">GitHub</a>
+  <a class="nav-link" href="https://linkedin.com/in/snehavenkatesh10" target="_blank">LinkedIn</a>
+</nav>
 
   <main class="container">
 
@@ -47,7 +55,9 @@ I’m especially excited by problems at the intersection of tech, product, and u
           <p class="project-desc">Conducted behavioral clustering on 1M+ credit card transactions using RFM analysis and KMeans. Identified customer personas and developed targeted marketing strategies for high-impact engagement.</p>
           <!---<p class="project-tools">Tools: Python, pandas, scikit-learn, PCA, Matplotlib, Medium</p>--->
           <div class="project-links">
-            <a href="https://github.com/snehavenkatesh19/credit-card-segmentation" target="_blank">GitHub</a>
+            <img src="images/rfm-thumb.png" alt="RFM Clustering Preview" class="project-thumb" />
+
+            <a href="https://github.com/SnehaVenkatesh19/Credit-Card-Analysis" target="_blank">GitHub</a>
             <a href="https://medium.com/@snehavenkatesh10/how-i-used-rfm-clustering-to-segment-credit-card-users-2ecead18eb0a" target="_blank">Medium Article</a>
           </div>
         </div>
